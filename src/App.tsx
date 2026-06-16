@@ -326,10 +326,7 @@ function Promise() {
         <div>
          
           <div className="space-y-5 text-lg leading-relaxed text-[#F5F8FF]/80">
-            <p>
-              Com o Presença Local no Google, eu organizo e otimizo o perfil da sua empresa para aumentar suas chances de aparecer
-              para pessoas que pesquisam pelo que você vende em Florianópolis, São José, Palhoça ou Biguaçu.
-            </p>
+            
             <p>
               Você não precisa e nem deve começar investindo em tráfego pago ou em um site completo para ser encontrado, 
               antes disso, existe um básico que muitos negócios locais ignoram: <strong className="font-bold text-white">estar bem posicionado no principal lugar onde as pessoas pesquisam.</strong>
