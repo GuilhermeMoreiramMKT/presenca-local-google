@@ -283,8 +283,9 @@ function Problems() {
 
   <p>
     <strong className="font-bold text-white">
-      O seu cliente não pesquisa pelo nome da sua empresa, ele pesquisa pelo que você vende.
-    </strong>{" "} < br/>
+      O seu cliente não pesquisa pelo seu nome, ele pesquisa pelo que você vende.
+    </strong>{" "} < br/> </p>
+    <p>
     E o Google precisa entender que a sua empresa é uma boa opção para aquela pesquisa,
     para mostrar ela nos resultados locais e nas novas experiências de busca.
   </p>
@@ -299,7 +300,7 @@ function Promise() {
   return (
     <section className="bg-[linear-gradient(135deg,#000010_0%,#06145C_55%,#6B18FF_100%)] px-5 py-10">
       <div className="mx-auto flex max-w-5xl flex-col items-center gap-8 text-center">
-        <SectionTag>Qual a função do Google para sua empresa?</SectionTag>
+        <SectionTag>Como aparecer no Google?</SectionTag>
 
         <Card>
           <h2 className="text-2xl font-black leading-tight text-white md:text-3xl">
@@ -334,33 +335,7 @@ function Promise() {
   );
 }
 
-function Offer() {
-  return (
-    <section id="oferta" className="bg-[#000010] px-5 py-20">
-      <div className="mx-auto max-w-7xl">
-        <div className="mb-12 max-w-3xl">
-          <SectionTag>A oferta</SectionTag>
-          <h2 className="mb-6 text-3xl font-black text-white md:text-5xl">
-            O que é otimização do Perfil da Empresa no Google para negócios locais?
-          </h2>
-          <p className="text-lg leading-relaxed text-[#AAB4D4]">
-            É uma otimização completa do Google Business Profile (Popurlamente conhecido como Google Meu Negócio) para negócios locais que querem ser encontrados por clientes na região.
-            Meu trabalho é ajustar os pontos que fazem diferença na busca local para que sua empresa possa aparecer nas pesquisas do Google, no Modo IA e nas experiências locais, aumentando suas chances de ser encontrado por quem já está procurando pelo que você vende.
-          </p>
-        </div>
 
-        
-        
-
-        <div className="mt-10 rounded-3xl border border-[#00D9FF]/25 bg-[#00D9FF]/10 p-7 text-center">
-          <p className="text-xl font-bold text-white">
-            O objetivo é deixar seu perfil mais completo, mais confiável e mais preparado para aparecer nas buscas locais.
-          </p>
-        </div>
-      </div>
-    </section>
-  );
-}
 
 function Payment() {
   return (
@@ -373,7 +348,7 @@ function Payment() {
           </h2>
           <div className="space-y-5 text-lg leading-relaxed text-[#AAB4D4]">
             <p>
-              Diferente de um anúncio, que para de aparecer quando você deixa de investir, a otimização do seu Perfil da Empresa no Google
+              Diferente de um anúncio ou site que para de aparecer quando você deixa de investir, a otimização do seu Perfil da Empresa no Google
               cria uma base orgânica para sua presença local.
             </p>
             <p>
@@ -621,7 +596,6 @@ function App() {
       <Storytelling />
       <Problems />
       <Promise />
-      <Offer />
       <Payment />
       <ForWho />
       <BusinessExamples />
