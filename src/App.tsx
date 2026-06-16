@@ -168,7 +168,9 @@ function ImageMockup({
   alt: string;
 }) {
   return (
-<div className="relative mx-auto max-w-xs">      <div className="absolute -right-10 bottom-12 h-32 w-32 rounded-full bg-[#B83CFF]/25 blur-3xl" />
+    <div className="relative mx-auto max-w-xs">
+      <div className="absolute -left-10 top-12 h-28 w-28 rounded-full bg-[#00D9FF]/25 blur-3xl" />
+      <div className="absolute -right-10 bottom-12 h-32 w-32 rounded-full bg-[#B83CFF]/25 blur-3xl" />
 
       <Card className="relative overflow-hidden p-3">
         <img
