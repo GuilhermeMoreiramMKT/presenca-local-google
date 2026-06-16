@@ -624,7 +624,7 @@ function FloatingWhatsApp() {
 
 function App() {
   return (
-    <main className="min-h-screen bg-[#000010] text-white">
+    <main className="min-h-screen bg-[#000010] text-white text-center">
       <Header />
       <Hero />
       <Storytelling />
