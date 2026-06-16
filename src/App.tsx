@@ -256,7 +256,7 @@ function Storytelling() {
               Isso Significa que apenas colocar palavras chaves no seu perfil como "Restaurante em Florianópolis" não é mais suficiente. O Google está cada vez melhor em entender o que o cliente quer e mostrar os resultados mais completos, relevantes e confiáveis. </p>
           </div>
           <ImageMockup
-  src="/public/modoia.png"
+  src="/modoia.png"
   alt="Exemplo de busca local no modo IA do Google"
 />
         </div>
