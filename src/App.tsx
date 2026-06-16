@@ -238,15 +238,16 @@ function Storytelling() {
         <div className="mb-12 max-w-3xl">
           <SectionTag>Comportamento local</SectionTag>
           <h2 className="mb-6 text-3xl font-black text-white md:text-5xl">
-            O cliente não procura mais comércio como antes.
+            O cliente não procura mais empresas como antes.
           </h2>
           <div className="space-y-5 text-lg leading-relaxed text-[#AAB4D4]">
             <p>
-              Antes, uma pessoa passava na frente da sua loja, recebia uma indicação ou lembrava de um nome conhecido.
-              Hoje, mesmo estando perto, ela pega o celular e pesquisa no Google.
+              Antes uma pessoa passava na frente da sua loja, recebia uma indicação ou lembrava de um nome conhecido.
+              Hoje mesmo estando perto, ela pega o celular e pesquisa no Google.
             </p>
                       <p>
-              O Google está cada vez melhor em entender o que o cliente quer e mostrar os resultados mais completos e relevantes, a empresa que não entende isso fica invisivel nas pesquisas locais, mesmo que esteja a poucos metros do cliente.</p>
+              Com o Modo IA do Google, uma empresa que possui apenas palavras chave no perfil pode acabar ficando para trás, enquanto um concorrente local com um perfil mais completo e otimizado tem mais chances de aparecer e ser escolhido antes se quer da sua empresa aparecer na lista. 
+              </p>
           </div>
           <ImageMockup
   src="/modoia.png"
@@ -277,13 +278,12 @@ function Problems() {
           </h2>
           <div className="space-y-5 text-lg leading-relaxed text-[#AAB4D4]">
   <p>
-    Muitas empresas acham que apenas colocar as informações básicas no perfil do Google é suficiente para aparecer bem.
-    Mas o Google tem critérios cada vez mais rigorosos para mostrar os resultados mais relevantes e confiáveis para os clientes.
-  </p>
+    Muitas empresas acham que apenas colocar informações básicas no perfil do Google é suficiente para aparecer.
+     </p>
 
   <p>
     <strong className="font-bold text-white">
-      O seu cliente não pesquisa pelo nome da sua empresa,ele pesquisa pelo que você vende.
+      O seu cliente não pesquisa pelo nome da sua empresa, ele pesquisa pelo que você vende.
     </strong>{" "} < br/>
     E o Google precisa entender que a sua empresa é uma boa opção para aquela pesquisa,
     para mostrar ela nos resultados locais e nas novas experiências de busca.
@@ -303,25 +303,23 @@ function Promise() {
 
         <Card>
           <h2 className="text-2xl font-black leading-tight text-white md:text-3xl">
-            Atraia clientes de graça mostrando que você existe.
+            Está na hora de fazer o Google trabalhar a favor da sua empresa!
           </h2>
         </Card>
 
         <div>
-          <h2 className="mb-6 text-2xl font-black text-white md:text-3xl">
-            Está na hora de fazer o Google trabalhar a favor da sua empresa.
-          </h2>
+         
           <div className="space-y-5 text-lg leading-relaxed text-[#F5F8FF]/80">
             <p>
               Com o Presença Local no Google, eu organizo e otimizo o perfil da sua empresa para aumentar suas chances de aparecer
               para pessoas que pesquisam pelo que você vende em Florianópolis, São José, Palhoça e Biguaçu.
             </p>
             <p>
-              Você não precisa começar investindo em tráfego pago,tamém não precisa ter um site completo para ser encontrado. < br/>
-              Antes disso, existe um básico que muitos negócios locais ignoram: <strong className="font-bold text-white">estar bem posicionado no principal lugar onde as pessoas pesquisam.</strong>
+              Você não precisa e nem deve começar investindo em tráfego pago ou em um site completo para ser encontrado, 
+              antes disso, existe um básico que muitos negócios locais ignoram: <strong className="font-bold text-white">estar bem posicionado no principal lugar onde as pessoas pesquisam.</strong>
             </p>
             <p className="font-bold text-white">
-              Enquanto um anúncio desaparece quando você deixa de pagar, um perfil local bem otimizado continua aparecendo, gerando confiança e trazendo oportunidades.
+              Enquanto um anúncio ou site desaparece quando você deixa de pagar, um perfil local bem otimizado continua aparecendo, gerando confiança e trazendo oportunidades.
             </p>
           </div>
 
@@ -343,11 +341,11 @@ function Offer() {
         <div className="mb-12 max-w-3xl">
           <SectionTag>A oferta</SectionTag>
           <h2 className="mb-6 text-3xl font-black text-white md:text-5xl">
-            O que é o Presença Local no Google?
+            O que é otimização do Perfil da Empresa no Google para negócios locais?
           </h2>
           <p className="text-lg leading-relaxed text-[#AAB4D4]">
-            É uma otimização completa do Perfil da Empresa no Google para negócios locais que querem ser encontrados por clientes na região.
-            Meu trabalho é ajustar os pontos que fazem diferença na busca local.
+            É uma otimização completa do Google Business Profile (Popurlamente conhecido como Google Meu Negócio) para negócios locais que querem ser encontrados por clientes na região.
+            Meu trabalho é ajustar os pontos que fazem diferença na busca local para que sua empresa possa aparecer nas pesquisas do Google, no Modo IA e nas experiências locais, aumentando suas chances de ser encontrado por quem já está procurando pelo que você vende.
           </p>
         </div>
 
