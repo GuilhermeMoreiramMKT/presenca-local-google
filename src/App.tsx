@@ -160,6 +160,26 @@ function HeroMockup() {
     </div>
   );
 }
+function ImageMockup({
+  src,
+  alt,
+}: {
+  src: string;
+  alt: string;
+}) {
+  return (
+<div className="relative mx-auto max-w-xs">      <div className="absolute -right-10 bottom-12 h-32 w-32 rounded-full bg-[#B83CFF]/25 blur-3xl" />
+
+      <Card className="relative overflow-hidden p-3">
+        <img
+          src={src}
+          alt={alt}
+          className="h-auto w-full rounded-2xl object-cover"
+        />
+      </Card>
+    </div>
+  );
+}
 
 function Hero() {
   return (
@@ -231,15 +251,19 @@ function Storytelling() {
               Mas você deve ter notado que hoje quando pesquisamos no Google por um produto ou serviço, o comportamento é diferente. Não é mais uma lista de links, em 19 de Maio o Google Anúnciou o Modo IA como futuro das buscas, a maior mudança na forma de utilizar o Google de toda a história. 
             </p>
             <p>
-              Isso Significa que apenas colocar palavras chaves no seu perfil como "Restaurante em Florianópolis" não é mais suficiente. O Google está cada vez melhor em entender o que o cliente quer e mostrar os resultados mais completos, relevantes e confiáveis. Se ele não entende como sua empresa pode atender a essa necessidade, ele pode acabar mostrando o concorrente que tem um perfil mais completo e otimizado para a busca local. </p>
+              Isso Significa que apenas colocar palavras chaves no seu perfil como "Restaurante em Florianópolis" não é mais suficiente. O Google está cada vez melhor em entender o que o cliente quer e mostrar os resultados mais completos, relevantes e confiáveis. </p>
           </div>
+          <ImageMockup
+  src="/public/modoia.png"
+  alt="Exemplo de busca local no modo IA do Google"
+/>
         </div>
 
         
 
         <div className="mt-10 rounded-3xl border border-[#B83CFF]/25 bg-[#B83CFF]/10 p-6 text-center">
           <p className="text-xl font-bold text-white">
-            O cliente pode estar no seu bairro, pesquisando pelo que você vende, e mesmo assim escolher o concorrente porque encontrou ele primeiro.
+            Se ele não entende como sua empresa pode atender a essa necessidade, ele pode acabar mostrando o concorrente que tem um perfil mais completo e otimizado para a busca local.
           </p>
         </div>
       </div>
