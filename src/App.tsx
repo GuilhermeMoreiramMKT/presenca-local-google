@@ -265,7 +265,7 @@ function Storytelling() {
 
         <div className="mt-10 rounded-3xl border border-[#B83CFF]/25 bg-[#B83CFF]/10 p-6 text-center">
           <p className="text-xl font-bold text-white">
-            Se ele não entende como sua empresa pode atender a essa necessidade, ele pode acabar mostrando o concorrente que tem um perfil mais completo e otimizado para a busca local.
+            Se ele não entende como sua empresa pode atender a essa necessidade, o seu concorrente que tem um perfil mais completo e otimizado para a busca local aparece no seu lugar.
           </p>
         </div>
       </div>
@@ -331,11 +331,11 @@ function Promise() {
               para pessoas que pesquisam pelo que você vende em Florianópolis, São José, Palhoça e Biguaçu.
             </p>
             <p>
-              Você não precisa começar investindo em tráfego pago. Também não precisa ter um site completo para ser encontrado.
-              Antes disso, existe um básico que muitos negócios locais ignoram: estar bem apresentado no principal lugar onde as pessoas pesquisam.
+              Você não precisa começar investindo em tráfego pago. < br/> Também não precisa ter um site completo para ser encontrado. < br/>
+              Antes disso, existe um básico que muitos negócios locais ignoram: <strong className="font-bold text-white">estar bem posicionado no principal lugar onde as pessoas pesquisam.</strong>
             </p>
             <p className="font-bold text-white">
-              Enquanto um anúncio para quando você deixa de pagar, um perfil local bem otimizado continua aparecendo, gerando confiança e trazendo oportunidades.
+              Enquanto um anúncio desaparece quando você deixa de pagar, um perfil local bem otimizado continua aparecendo, gerando confiança e trazendo oportunidades.
             </p>
           </div>
 
@@ -360,7 +360,7 @@ function Offer() {
             O que é o Presença Local no Google?
           </h2>
           <p className="text-lg leading-relaxed text-[#AAB4D4]">
-            É uma otimização completa do Perfil da Empresa no Google para negócios físicos que querem ser encontrados por clientes da própria região.
+            É uma otimização completa do Perfil da Empresa no Google para negócios locais que querem ser encontrados por clientes na região.
             Meu trabalho é ajustar os pontos que fazem diferença na busca local.
           </p>
         </div>
@@ -423,7 +423,7 @@ function Payment() {
 
           <p className="mt-8 rounded-2xl border border-white/10 bg-black/20 p-4 text-sm leading-relaxed text-[#AAB4D4]">
             Resultado no Google depende de fatores como concorrência local, localização, qualidade do perfil, avaliações, relevância e comportamento dos usuários.
-            O trabalho é feito para melhorar sua presença local e aumentar suas chances de ser encontrado, sem prometer posições garantidas.
+            O trabalho é feito para melhorar sua presença local e aumentar suas chances de ser encontrado.
           </p>
         </Card>
       </div>
@@ -433,19 +433,18 @@ function Payment() {
 
 function ForWho() {
   const yes = [
-    "Você possui comércio físico na Grande Florianópolis",
-    "Sua empresa atende em Florianópolis, São José, Palhoça ou Biguaçu",
+    "Você possui uma empresa que atende localmente na Grande Florianópolis",
     "Você quer atrair clientes próximos sem depender apenas de indicação",
-    "Você quer melhorar sua presença no Google",
-    "Você tem um perfil no Google, mas ele está incompleto",
+    "Você quer aparecer nas pesquisas do Google",
+    "Você tem um perfil no Google, mas ele está incompleto ou não está otimizado",
     "Você quer gerar mais ligações, rotas, mensagens e visitas",
     "Você quer fazer o básico bem feito antes de investir em anúncios",
   ];
 
   const no = [
-    "Você espera promessa de primeiro lugar garantido",
+    "Você uqer depender exclusivamente de tráfego pago",
     "Você não quer melhorar informações, fotos ou avaliações",
-    "Você não tem uma empresa local ou ponto físico",
+    "Você não atende localmente",
     "Você quer resultado sem nenhuma organização",
     "Você procura uma solução milagrosa sem ajustes",
   ];
@@ -533,7 +532,7 @@ function Guilherme() {
         </Card>
 
         <div>
-          <SectionTag>Quem conduz</SectionTag>
+          <SectionTag>Quem sou eu</SectionTag>
           <h2 className="mb-6 text-3xl font-black text-white md:text-5xl">
             Meu trabalho não é apenas fazer marketing. É construir crescimento real.
           </h2>
@@ -553,13 +552,7 @@ function Guilherme() {
             </p>
           </div>
 
-          <div className="mt-8 grid gap-4 sm:grid-cols-2">
-            {["+6 anos de experiência", "+1.000 empresas acompanhadas", "Atuação no Brasil e exterior", "Foco em crescimento real"].map((item) => (
-              <div key={item} className="rounded-2xl border border-[#00D9FF]/20 bg-[#00D9FF]/10 p-4 text-sm font-bold text-white">
-                {item}
-              </div>
-            ))}
-          </div>
+          
         </div>
       </div>
     </section>
@@ -570,12 +563,12 @@ function FinalCTA() {
   return (
     <section className="bg-[radial-gradient(circle_at_50%_0%,rgba(184,60,255,0.45),transparent_35%),linear-gradient(135deg,#000010,#06145C)] px-5 py-24">
       <div className="mx-auto max-w-4xl text-center">
-        <SectionTag>Próximo passo</SectionTag>
+        <SectionTag>Aparecer para o seu cliente é o primeiro passo</SectionTag>
         <h2 className="mb-6 text-4xl font-black leading-tight text-white md:text-6xl">
           Sua empresa pode estar perdendo clientes que estão a poucos minutos de você.
         </h2>
         <p className="mx-auto mb-8 max-w-3xl text-lg leading-relaxed text-[#AAB4D4]">
-          Se alguém pesquisar hoje pelo seu produto ou serviço na sua região, sua empresa aparece bem?
+          Se alguém pesquisar hoje pelo seu produto ou serviço na sua região, sua empresa aparece ou fica escondida?
           O perfil transmite confiança? Tem fotos, informações, serviços, WhatsApp, rota e descrição clara?
         </p>
 
@@ -589,7 +582,7 @@ function FinalCTA() {
         </div>
 
         <p className="mt-5 text-sm text-[#AAB4D4]">
-          Me envie uma mensagem e eu te explico como funciona a otimização do Perfil da Empresa no Google.
+          Me envie uma mensagem e solicita uma análise do seu Perfil da Empresa no Google.
         </p>
       </div>
     </section>
