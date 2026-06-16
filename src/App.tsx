@@ -245,11 +245,8 @@ function Storytelling() {
               Antes, uma pessoa passava na frente da sua loja, recebia uma indicação ou lembrava de um nome conhecido.
               Hoje, mesmo estando perto, ela pega o celular e pesquisa no Google.
             </p>
-            <p>
-              Mas você deve ter notado que hoje quando pesquisamos no Google por um produto ou serviço, o comportamento é diferente. Não é mais uma lista de links, em 19 de Maio o Google Anúnciou o Modo IA como futuro das buscas, a maior mudança na forma de utilizar o Google de toda a história. 
-            </p>
-            <p>
-              Isso Significa que apenas colocar palavras chaves no seu perfil como "Restaurante em Florianópolis" não é mais suficiente. O Google está cada vez melhor em entender o que o cliente quer e mostrar os resultados mais completos, relevantes e confiáveis. </p>
+                      <p>
+              O Google está cada vez melhor em entender o que o cliente quer e mostrar os resultados mais completos e relevantes, a empresa que não entende isso fica invisivel nas pesquisas locais, mesmo que esteja a poucos metros do cliente.</p>
           </div>
           <ImageMockup
   src="/modoia.png"
@@ -261,8 +258,8 @@ function Storytelling() {
 
         <div className="mt-10 rounded-3xl border border-[#B83CFF]/25 bg-[#B83CFF]/10 p-6 text-center">
           <p className="text-xl font-bold text-white">
-            Se ele não entende como sua empresa pode atender a essa necessidade, o seu concorrente que tem um perfil mais completo e otimizado para a busca local aparece no seu lugar.
-          </p>
+Apenas colocar palavras chave como "Restaurante em Florianópolis" não é mais suficiente para aparecer no topo das pesquisas.
+ </p>
         </div>
       </div>
     </section>
@@ -276,7 +273,7 @@ function Problems() {
         <div className="mb-12 max-w-3xl">
           <SectionTag>O problema</SectionTag>
           <h2 className="mb-6 text-3xl font-black text-white md:text-5xl">
-            O problema não é só aparecer no Google, é aparecer do jeito certo.
+            O problema não é sua empresa, é o quanto o Google conhece e entende dela
           </h2>
           <div className="space-y-5 text-lg leading-relaxed text-[#AAB4D4]">
   <p>
@@ -287,19 +284,13 @@ function Problems() {
   <p>
     <strong className="font-bold text-white">
       O seu cliente não pesquisa pelo nome da sua empresa,ele pesquisa pelo que você vende.
-    </strong>{" "}
+    </strong>{" "} < br/>
     E o Google precisa entender que a sua empresa é uma boa opção para aquela pesquisa,
     para mostrar ela nos resultados locais e nas novas experiências de busca.
   </p>
 </div>
         </div>
-
-        
-
-        <p className="mx-auto mt-10 max-w-4xl text-center text-xl font-bold text-white">
-          Às vezes, o problema não é falta de demanda. < br/> O problema é que sua empresa não está aparecendo na hora em que o cliente procura.
-        </p>
-      </div>
+     </div>
     </section>
   );
 }
@@ -312,7 +303,7 @@ function Promise() {
 
         <Card>
           <h2 className="text-2xl font-black leading-tight text-white md:text-3xl">
-            Atrair clientes de graça mostrando que você existe.
+            Atraia clientes de graça mostrando que você existe.
           </h2>
         </Card>
 
@@ -326,7 +317,7 @@ function Promise() {
               para pessoas que pesquisam pelo que você vende em Florianópolis, São José, Palhoça e Biguaçu.
             </p>
             <p>
-              Você não precisa começar investindo em tráfego pago. < br/> Também não precisa ter um site completo para ser encontrado. < br/>
+              Você não precisa começar investindo em tráfego pago,tamém não precisa ter um site completo para ser encontrado. < br/>
               Antes disso, existe um básico que muitos negócios locais ignoram: <strong className="font-bold text-white">estar bem posicionado no principal lugar onde as pessoas pesquisam.</strong>
             </p>
             <p className="font-bold text-white">
