@@ -204,9 +204,7 @@ function Hero() {
         <div className="grid items-center gap-14 lg:grid-cols-[1.1fr_0.9fr]">
           <div>
             <p className="mb-6 max-w-2xl text-lg leading-relaxed text-[#AAB4D4] md:text-xl">
-              Hoje antes de entrar em uma loja, clínica, restaurante ou comércio local, as pessoas pesquisam no Google.
-              <br />
-              Se sua empresa não aparece no{" "}
+                            Se sua empresa não aparece no{" "}
               <strong className="font-bold text-white">
                 Modo IA ou nos primeiros resultados
               </strong>
@@ -296,7 +294,7 @@ function Problems() {
 
   <p>
     <strong className="font-bold text-white">
-      Mas o seu cliente não pesquisa pelo nome da sua empresa, ele pesquisa pelo que você vende. E o Google precisa entender que a sua empresa é uma boa opção para aquela pesquisa.
+      Mas o seu cliente não pesquisa pelo nome da sua empresa, ele pesquisa pelo que você vende. 
     </strong>{" "} < br/> </p>
     <p>
     E o Google precisa entender que a sua empresa é uma boa opção para aquela pesquisa,
