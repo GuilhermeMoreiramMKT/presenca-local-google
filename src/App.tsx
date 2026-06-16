@@ -208,11 +208,7 @@ function Hero() {
             <p className="text-lg font-bold text-white">
               Qual foi a última vez que você se afastou 1 km da localização da sua empresa e pesquisou pelo seu produto ou serviço no Google?
             </p>
-            <p className="mt-3 text-sm leading-relaxed text-[#AAB4D4]">
-              O Google Indicou a sua empresa no modo IA? < br /> Voce apareceu nas primeiras opções de empresas perto de você? <br />
-              Se a resposta for <strong> NÃO</strong>, é provável que muitos dos seus clientes em potencial também não estejam encontrando a sua empresa quando pesquisam.  
-            </p>
-          </div>
+                  </div>
 
           <div className="flex flex-col gap-3 sm:flex-row">
             <a href={WHATSAPP_LINK} target="_blank" rel="noreferrer">
@@ -237,7 +233,7 @@ function Hero() {
 function Storytelling() {
  
   return (
-    <section className="bg-[#000010] px-5 py-20">
+    <section className="bg-[#000010] px-5 py-10">
       <div className="mx-auto max-w-7xl">
         <div className="mb-12 max-w-3xl">
           <SectionTag>Comportamento local</SectionTag>
@@ -275,7 +271,7 @@ function Storytelling() {
 
 function Problems() {
   return (
-    <section id="problema" className="bg-[#02051A] px-5 py-20">
+    <section id="problema" className="bg-[#02051A] px-5 py-10">
       <div className="mx-auto max-w-7xl">
         <div className="mb-12 max-w-3xl">
           <SectionTag>O problema</SectionTag>
@@ -310,19 +306,18 @@ function Problems() {
 
 function Promise() {
   return (
-    <section className="bg-[linear-gradient(135deg,#000010_0%,#06145C_55%,#6B18FF_100%)] px-5 py-20">
-      <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.9fr_1.1fr]">
+    <section className="bg-[linear-gradient(135deg,#000010_0%,#06145C_55%,#6B18FF_100%)] px-5 py-10">
+      <div className="mx-auto flex max-w-5xl flex-col items-center gap-8 text-center">
+        <SectionTag>Qual a função do Google para sua empresa?</SectionTag>
+
         <Card>
-          <p className="mb-4 text-sm font-bold uppercase tracking-[0.18em] text-[#00D9FF]">
-            Qual a função do Google para sua empresa?
-          </p>
-          <h2 className="text-4xl font-black leading-tight text-white md:text-5xl">
+          <h2 className="text-2xl font-black leading-tight text-white md:text-3xl">
             Atrair clientes de graça mostrando que você existe.
           </h2>
         </Card>
 
         <div>
-          <h2 className="mb-6 text-3xl font-black text-white md:text-5xl">
+          <h2 className="mb-6 text-2xl font-black text-white md:text-3xl">
             Está na hora de fazer o Google trabalhar a favor da sua empresa.
           </h2>
           <div className="space-y-5 text-lg leading-relaxed text-[#F5F8FF]/80">
@@ -615,9 +610,16 @@ function FloatingWhatsApp() {
       target="_blank"
       rel="noreferrer"
       aria-label="Chamar Guilherme Moreira no WhatsApp"
-      className="fixed bottom-5 right-5 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-2xl text-white shadow-[0_0_35px_rgba(37,211,102,0.55)] transition hover:scale-105"
+      className="fixed bottom-5 right-5 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] shadow-[0_0_35px_rgba(37,211,102,0.55)] transition hover:scale-105"
     >
-      ✆
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 32 32"
+        className="h-7 w-7 fill-white"
+        aria-hidden="true"
+      >
+        <path d="M16.01 3.2c-7.06 0-12.8 5.63-12.8 12.56 0 2.22.6 4.39 1.74 6.29L3.2 28.8l6.93-1.75a12.96 12.96 0 0 0 5.88 1.43c7.06 0 12.8-5.63 12.8-12.56S23.07 3.2 16.01 3.2Zm0 22.99c-1.88 0-3.72-.5-5.33-1.45l-.38-.22-4.11 1.04 1.09-3.93-.25-.4a10.13 10.13 0 0 1-1.55-5.47c0-5.67 4.72-10.28 10.53-10.28 5.8 0 10.52 4.61 10.52 10.28s-4.72 10.43-10.52 10.43Zm5.78-7.68c-.32-.16-1.88-.91-2.17-1.02-.29-.1-.5-.16-.71.16-.21.31-.82 1.02-1 1.23-.18.21-.37.23-.69.08-.32-.16-1.35-.49-2.57-1.55-.95-.83-1.59-1.86-1.78-2.17-.18-.31-.02-.48.14-.64.14-.14.32-.37.48-.55.16-.18.21-.31.32-.52.1-.21.05-.39-.03-.55-.08-.16-.71-1.68-.97-2.3-.26-.6-.52-.52-.71-.53h-.61c-.21 0-.55.08-.84.39-.29.31-1.1 1.05-1.1 2.56s1.13 2.97 1.29 3.18c.16.21 2.23 3.34 5.4 4.68.75.32 1.34.51 1.8.65.76.24 1.45.21 1.99.13.61-.09 1.88-.75 2.15-1.48.26-.73.26-1.36.18-1.49-.08-.13-.29-.21-.61-.37Z" />
+      </svg>
     </a>
   );
 }
