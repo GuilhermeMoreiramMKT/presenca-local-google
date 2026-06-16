@@ -2,37 +2,9 @@ const WHATSAPP_LINK =
   "https://wa.me/5542988674149?text=Ol%C3%A1%20Guilherme%2C%20vi%20sua%20p%C3%A1gina%20sobre%20Presen%C3%A7a%20Local%20no%20Google%20e%20quero%20entender%20como%20minha%20empresa%20pode%20aparecer%20melhor%20nas%20buscas%20da%20regi%C3%A3o.";
 
 
-const problems = [
-  "Categoria errada ou genérica",
-  "Descrição fraca, sem termos locais",
-  "Serviços e produtos não cadastrados",
-  "Poucas fotos ou fotos antigas",
-  "Horários desatualizados",
-  "WhatsApp, telefone ou rota mal configurados",
-  "Avaliações sem estratégia",
-  "Perfil sem perguntas e respostas",
-  "Ausência de termos importantes para busca local",
-  "Concorrentes com perfis mais completos",
-  "Empresa invisível em pesquisas próximas",
-  "Publicações inexistentes ou abandonadas",
-];
+;
 
-const offerItems = [
-  "Criação ou otimização do Perfil da Empresa no Google",
-  "Ajuste de nome, categoria principal e categorias secundárias",
-  "Criação ou otimização da descrição da empresa",
-  "Cadastro de produtos ou serviços",
-  "Otimização de fotos",
-  "Publicações iniciais",
-  "Perguntas e respostas estratégicas",
-  "Ajuste de área de atendimento",
-  "Configuração de WhatsApp, telefone, rotas e horários",
-  "Uso de palavras-chave locais",
-  "Orientação para conseguir avaliações",
-  "Mini diagnóstico da presença local",
-  "Correção de informações incompletas ou desalinhadas",
-  "Organização do perfil para aumentar confiança e conversão",
-];
+
 
 const businessTypes = [
   "Restaurantes",
@@ -206,8 +178,8 @@ function Hero() {
           </h1>
 
           <p className="mb-6 max-w-2xl text-lg leading-relaxed text-[#AAB4D4] md:text-xl">
-            Hoje, antes de entrar em uma loja, clínica, restaurante ou comércio local, as pessoas pesquisam no Google.
-            Se sua empresa não aparece bem ali, você pode estar invisível até para quem está a poucos minutos do seu endereço.
+            Hoje, antes de entrar em uma loja, clínica, restaurante ou comércio local, as pessoas pesquisam no Google. <br />
+            Se sua empresa não aparece no <strong> Modo IA ou nos primeiros resultados</strong>, você pode estar invisível até para quem está a poucos minutos do seu endereço.
           </p>
 
           <div className="mb-7 rounded-3xl border border-[#00D9FF]/25 bg-[#00D9FF]/10 p-5">
@@ -215,14 +187,14 @@ function Hero() {
               Qual foi a última vez que você se afastou 1 km da localização da sua empresa e pesquisou pelo seu produto ou serviço no Google?
             </p>
             <p className="mt-3 text-sm leading-relaxed text-[#AAB4D4]">
-              Em que posição sua empresa aparece? Ela aparece completa? Tem fotos, serviços, avaliações, WhatsApp, rotas e informações claras?
-              Ou o cliente encontra seus concorrentes primeiro?
+              O Google Indicou a sua empresa no modo IA? < br /> Voce apareceu nas primeiras opções de empresas perto de você? <br />
+              Se a resposta for <strong> NÃO</strong>, é provável que muitos dos seus clientes em potencial também não estejam encontrando a sua empresa quando pesquisam.  
             </p>
           </div>
 
           <div className="flex flex-col gap-3 sm:flex-row">
             <a href={WHATSAPP_LINK} target="_blank" rel="noreferrer">
-              <Button>Quero aparecer melhor no Google</Button>
+              <Button>Quero aparecer no Google</Button>
             </a>
             <a href={WHATSAPP_LINK} target="_blank" rel="noreferrer">
               <Button variant="secondary">Chamar no WhatsApp</Button>
@@ -241,8 +213,7 @@ function Hero() {
 }
 
 function Storytelling() {
-  const steps = ["Necessidade", "Pesquisa no Google", "Compara empresas", "Analisa avaliações", "Clica em rota ou WhatsApp", "Compra"];
-
+ 
   return (
     <section className="bg-[#000010] px-5 py-20">
       <div className="mx-auto max-w-7xl">
@@ -257,26 +228,14 @@ function Storytelling() {
               Hoje, mesmo estando perto, ela pega o celular e pesquisa no Google.
             </p>
             <p>
-              Ela pesquisa por “loja perto de mim”, “dentista em Florianópolis”, “restaurante em São José”,
-              “assistência técnica em Palhoça”, “clínica em Biguaçu” ou qualquer outro serviço que precisa naquele momento.
+              Mas você deve ter notado que hoje quando pesquisamos no Google por um produto ou serviço, o comportamento é diferente. Não é mais uma lista de links, em 19 de Maio o Google Anúnciou o Modo IA como futuro das buscas, a maior mudança na forma de utilizar o Google de toda a história. 
             </p>
             <p>
-              E nessa hora, o Google decide quais empresas aparecem primeiro, quais passam mais confiança e quais recebem o clique,
-              a rota, a ligação ou a mensagem no WhatsApp.
-            </p>
+              Isso Significa que apenas colocar palavras chaves no seu perfil como "Restaurante em Florianópolis" não é mais suficiente. O Google está cada vez melhor em entender o que o cliente quer e mostrar os resultados mais completos, relevantes e confiáveis. Se ele não entende como sua empresa pode atender a essa necessidade, ele pode acabar mostrando o concorrente que tem um perfil mais completo e otimizado para a busca local. </p>
           </div>
         </div>
 
-        <div className="grid gap-4 md:grid-cols-6">
-          {steps.map((step, index) => (
-            <Card key={step} className="relative p-5">
-              <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-[#00D9FF]/10 text-sm font-black text-[#00D9FF]">
-                {index + 1}
-              </div>
-              <p className="text-sm font-bold text-white">{step}</p>
-            </Card>
-          ))}
-        </div>
+        
 
         <div className="mt-10 rounded-3xl border border-[#B83CFF]/25 bg-[#B83CFF]/10 p-6 text-center">
           <p className="text-xl font-bold text-white">
@@ -295,25 +254,28 @@ function Problems() {
         <div className="mb-12 max-w-3xl">
           <SectionTag>O problema</SectionTag>
           <h2 className="mb-6 text-3xl font-black text-white md:text-5xl">
-            O problema não é só aparecer no Google. É aparecer do jeito certo.
+            O problema não é só aparecer no Google, é aparecer do jeito certo.
           </h2>
-          <p className="text-lg leading-relaxed text-[#AAB4D4]">
-            Muitas empresas até possuem um perfil no Google, mas ele está abandonado, incompleto ou mal configurado.
-            Isso reduz a confiança do cliente e dificulta que o Google entenda quando deve mostrar aquele negócio nas buscas locais.
-          </p>
+          <div className="space-y-5 text-lg leading-relaxed text-[#AAB4D4]">
+  <p>
+    Muitas empresas acham que apenas colocar as informações básicas no perfil do Google é suficiente para aparecer bem.
+    Mas o Google tem critérios cada vez mais rigorosos para mostrar os resultados mais relevantes e confiáveis para os clientes.
+  </p>
+
+  <p>
+    <strong className="font-bold text-white">
+      O seu cliente não pesquisa pelo nome da sua empresa,ele pesquisa pelo que você vende.
+    </strong>{" "}
+    E o Google precisa entender que a sua empresa é uma boa opção para aquela pesquisa,
+    para mostrar ela nos resultados locais e nas novas experiências de busca.
+  </p>
+</div>
         </div>
 
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {problems.map((problem) => (
-            <Card key={problem} className="flex items-start gap-4 p-5">
-              <div className="mt-1 h-2.5 w-2.5 shrink-0 rounded-full bg-[#00D9FF] shadow-[0_0_18px_rgba(0,217,255,0.9)]" />
-              <p className="text-sm font-semibold text-white/90">{problem}</p>
-            </Card>
-          ))}
-        </div>
+        
 
         <p className="mx-auto mt-10 max-w-4xl text-center text-xl font-bold text-white">
-          Às vezes, o problema não é falta de demanda. O problema é que sua empresa não está aparecendo bem na hora em que o cliente procura.
+          Às vezes, o problema não é falta de demanda. < br/> O problema é que sua empresa não está aparecendo na hora em que o cliente procura.
         </p>
       </div>
     </section>
@@ -326,10 +288,10 @@ function Promise() {
       <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.9fr_1.1fr]">
         <Card>
           <p className="mb-4 text-sm font-bold uppercase tracking-[0.18em] text-[#00D9FF]">
-            Promessa central
+            Qual a função do Google para sua empresa?
           </p>
           <h2 className="text-4xl font-black leading-tight text-white md:text-5xl">
-            Atrair clientes de graça através do Google.
+            Atrair clientes de graça mostrando que você existe.
           </h2>
         </Card>
 
@@ -377,16 +339,8 @@ function Offer() {
           </p>
         </div>
 
-        <div className="grid gap-4 md:grid-cols-2">
-          {offerItems.map((item) => (
-            <div key={item} className="flex items-start gap-4 rounded-2xl border border-white/10 bg-white/[0.04] p-4">
-              <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#00D9FF]/15 text-sm text-[#00D9FF]">
-                ✓
-              </span>
-              <p className="text-sm font-medium text-white/90">{item}</p>
-            </div>
-          ))}
-        </div>
+        
+        
 
         <div className="mt-10 rounded-3xl border border-[#00D9FF]/25 bg-[#00D9FF]/10 p-7 text-center">
           <p className="text-xl font-bold text-white">
