@@ -194,16 +194,18 @@ function Hero() {
 
       <div className="relative z-10 mx-auto max-w-7xl">
         <div className="mx-auto mb-14 max-w-6xl text-center">
-          <SectionTag>Apareça de graça no Google</SectionTag>
+          <SectionTag>APAREÇA NAS BUSCAS LOCAIS DO GOOGLE</SectionTag>
 
           <h1 className="mt-6 text-4xl font-black leading-[1.05] tracking-tight text-white md:text-6xl">
-            Quantos dos seus vizinhos ainda não conhecem a sua empresa?
+            Você não perde clientes por falta de anúncio.
           </h1>
         </div>
 
         <div className="grid items-center gap-14 lg:grid-cols-[1.1fr_0.9fr]">
           <div>
             <p className="mb-6 max-w-2xl text-lg leading-relaxed text-[#AAB4D4] md:text-xl">
+                            <strong className="font-bold text-white">Você perde quando eles procuram pelo que você vende no Google e encontram seus concorrentes primeiro. </strong><br />
+
                             Se sua empresa não aparece no{" "}
               <strong className="font-bold text-white">
                 Modo IA ou nos primeiros resultados
@@ -213,7 +215,7 @@ function Hero() {
 
             <div className="mb-7 rounded-3xl border border-[#00D9FF]/25 bg-[#00D9FF]/10 p-5">
               <p className="text-lg font-bold text-white">
-                Qual foi a última vez que você se afastou 1 km da localização da sua empresa e pesquisou pelo seu produto ou serviço no Google?
+                Otimizamos e mantemos sua ficha do Google atualizada para sua empresa aparecer melhor nas buscas locais, gerar mais rotas, ligações, mensagens e pedidos de orçamento de forma orgânica.
               </p>
             </div>
 
@@ -228,8 +230,7 @@ function Hero() {
             </div>
 
             <p className="mt-5 max-w-2xl text-sm text-[#AAB4D4]">
-              Sem site. Sem tráfego pago. Sem mensalidade obrigatória. Uma otimização local pensada para fazer sua empresa ser encontrada por quem já está procurando.
-            </p>
+Sem depender de site ou tráfego pago. Sua ficha otimizada para ser encontrada por quem já está procurando pelo que você vende.            </p>
           </div>
 
           <HeroMockup />
@@ -247,21 +248,22 @@ function Storytelling() {
           <SectionTag>Apareça para os seus Clientes</SectionTag>
 
           <h2 className="mb-6 text-3xl font-black text-white md:text-5xl">
-            O cliente não procura mais empresas como antes.
+            Não basta aparecer no Google. < br/> A IA precisa entender por que recomendar sua empresa.
           </h2>
         </div>
 
         <div className="mx-auto grid max-w-6xl items-center gap-12 lg:grid-cols-2">
           <div className="space-y-5 text-lg leading-relaxed text-[#AAB4D4]">
             <p>
-              Antes uma pessoa passava na frente da sua loja, recebia uma indicação ou lembrava de um nome conhecido.
-              Hoje, mesmo estando perto, ela pega o celular e pesquisa no Google.
+              O Google não mostra mais apenas uma lista de empresas.
+
+Com o Modo IA, ele interpreta a busca, cruza informações e pode indicar negócios com base em contexto, localização, avaliações, fotos, serviços, produtos e clareza do perfil.
             </p>
 
             <p>
-              Com o Modo IA do Google, uma empresa que possui apenas palavras-chave no perfil pode acabar ficando para trás,
-              enquanto um concorrente local com um perfil mais completo e otimizado tem mais chances de aparecer e ser escolhido
-              antes sequer da sua empresa aparecer na lista.
+              Por isso, não basta ter uma ficha com algumas palavras-chave.
+
+Se o Google não entende bem o que sua empresa faz, onde atende, o que oferece e por que ela é uma boa opção, você pode ficar fora da resposta antes mesmo do cliente ver a lista de concorrentes.
             </p>
           </div>
 
@@ -271,6 +273,9 @@ function Storytelling() {
               alt="Exemplo de busca local no modo IA do Google"
             />
           </div>
+          <p className="mt-5 max-w-2xl text-sm text-[#AAB4D4]">
+Sem precisar investir em tráfego pago, site ou ferramentas extras. O trabalho é feito usando a própria estrutura gratuita do Google, com estratégia, otimização e manutenção profissional.
+            </p>
         </div>
       </div>
     </section>
@@ -284,12 +289,11 @@ function Problems() {
         <div className="mx-auto mb-12 max-w-4xl text-center">
           <SectionTag>O problema</SectionTag>
           <h2 className="mb-6 text-3xl font-black text-white md:text-5xl">
-            O problema não é sua empresa, é o quanto o Google conhece e entende dela
+            Você sabe como o Google entende a sua empresa hoje?
           </h2>
           <div className="space-y-5 text-lg leading-relaxed text-[#AAB4D4]">
   <p>
-    Muitas empresas acham que apenas colocar informações básicas ou palavras chave
-    no perfil do Google são suficientes para aparecer nas pesquisas.
+    Muitos negócios aparecem no Google, mas não estão preparados para serem escolhidos.
      </p>
 
   <p>
@@ -297,8 +301,13 @@ function Problems() {
       Mas o seu cliente não pesquisa pelo nome da sua empresa, ele pesquisa pelo que você vende. 
     </strong>{" "} < br/> </p>
     <p>
-    E o Google precisa entender que a sua empresa é uma boa opção para aquela pesquisa,
-    para mostrar ela nos resultados locais, no Modo IA e nas novas experiências de busca.
+    A ficha pode existir, mas estar incompleta, genérica, desatualizada ou sem informações suficientes para o Google entender com clareza o que a empresa faz, onde atende, quais serviços oferece e por que ela deveria ser recomendada.
+
+Com a IA entrando cada vez mais nas buscas, isso se torna ainda mais importante.
+
+A questão não é apenas estar cadastrado.
+
+É ser compreendido, considerado e encontrado quando o cliente procura por uma empresa como a sua.
   </p>
 </div>
         </div>
@@ -311,9 +320,8 @@ function Promise() {
   return (
     <section className="bg-[linear-gradient(135deg,#000010_0%,#06145C_55%,#6B18FF_100%)] px-5 py-10">
       <div className="mx-auto flex max-w-5xl flex-col items-center gap-8 text-center">
-        <SectionTag>Como aparecer no Google gratuitamente?
+        <SectionTag>Solicite uma análise gratuita</SectionTag>
 
-        </SectionTag>
 
         <Card>
           <h2 className="text-2xl font-black leading-tight text-white md:text-3xl">
@@ -326,17 +334,14 @@ function Promise() {
           <div className="space-y-5 text-lg leading-relaxed text-[#F5F8FF]/80">
             
             <p>
-              Você não precisa e nem deve começar investindo em tráfego pago ou em um site completo para ser encontrado, 
-              antes disso, existe um básico que muitos negócios locais ignoram: <strong className="font-bold text-white">estar bem posicionado no principal lugar onde as pessoas pesquisam.</strong>
-            </p>
-            <p className="font-bold text-white">
-              Enquanto um anúncio ou site desaparece quando você deixa de pagar, um perfil local bem otimizado continua aparecendo, gerando confiança e trazendo oportunidades.
-            </p>
+             Descubra se sua empresa está pronta para aparecer nas buscas locais do Google e nas respostas geradas por IA. < br/>
+
+Em uma conversa rápida, analisamos sua presença atual e mostramos onde sua ficha pode estar perdendo oportunidades. </p>
           </div>
 
           <div className="mt-8">
             <a href={WHATSAPP_LINK} target="_blank" rel="noreferrer">
-              <Button>Quero entender como funciona</Button>
+              <Button>Solicitar uma análise Gratuita</Button>
             </a>
           </div>
         </div>
@@ -346,61 +351,6 @@ function Promise() {
 }
 
 
-
-function Payment() {
-  return (
-    <section className="bg-[#02051A] px-5 py-20">
-      <div className="mx-auto max-w-7xl">
-        <div className="mx-auto mb-12 max-w-5xl text-center">
-          <SectionTag>Pagamento único</SectionTag>
-
-          <h2 className="text-3xl font-black leading-tight text-white md:text-5xl">
-            Um pagamento único para uma base que continua trabalhando pela sua empresa.
-          </h2>
-        </div>
-
-        <div className="mx-auto max-w-4xl text-center">
-          <div className="space-y-5 text-lg leading-relaxed text-[#AAB4D4]">
-            <p>
-              Você faz um pagamento único pela estruturação e otimização inicial.
-              Depois, sua empresa continua podendo ser encontrada por pessoas que pesquisam na região.
-            </p>
-          </div>
-
-          <div className="mt-8">
-            <a href={WHATSAPP_LINK} target="_blank" rel="noreferrer">
-              <Button>Quero atrair clientes pelo Google</Button>
-            </a>
-          </div>
-        </div>
-
-        <Card className="mx-auto mt-12 w-full max-w-4xl">
-          <div className="grid gap-4 md:grid-cols-2">
-            {[
-              "Sem mensalidade obrigatória",
-              "Sem necessidade de tráfego pago",
-              "Sem depender de site",
-              "Sem contrato longo",
-              "Sem agência cobrando milhares para entregar o básico",
-              "Uma estrutura orgânica que permanece ativa",
-            ].map((item) => (
-              <div key={item} className="flex items-start gap-3 text-left">
-                <span className="text-[#00D9FF]">✓</span>
-                <p className="text-white/90">{item}</p>
-              </div>
-            ))}
-          </div>
-
-          <p className="mt-8 rounded-2xl border border-white/10 bg-black/20 p-4 text-center text-sm leading-relaxed text-[#AAB4D4]">
-            Resultado no Google depende de fatores como concorrência local, localização,
-            qualidade do perfil, avaliações, relevância e comportamento dos usuários.
-            O trabalho é feito para melhorar sua presença local e aumentar suas chances de ser encontrado.
-          </p>
-        </Card>
-      </div>
-    </section>
-  );
-}
 function ForWho() {
   const yes = [
     "Você possui uma empresa que atende localmente na Grande Florianópolis",
@@ -574,7 +524,6 @@ function App() {
       <Storytelling />
       <Problems />
       <Promise />
-      <Payment />
       <ForWho />
       <BusinessExamples />
       <FinalCTA />
