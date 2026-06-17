@@ -298,12 +298,11 @@ function Problems() {
 
   <p>
     <strong className="font-bold text-white">
-      Mas o seu cliente não pesquisa pelo nome da sua empresa, ele pesquisa pelo que você vende. 
+      A ficha pode existir, mas estar incompleta, genérica, desatualizada ou sem informações suficientes para o Google entender com clareza o que a empresa faz, onde atende, quais serviços oferece e por que ela deveria ser recomendada.
+ 
     </strong>{" "} < br/> </p>
     <p>
-    A ficha pode existir, mas estar incompleta, genérica, desatualizada ou sem informações suficientes para o Google entender com clareza o que a empresa faz, onde atende, quais serviços oferece e por que ela deveria ser recomendada.
-
-Com a IA entrando cada vez mais nas buscas, isso se torna ainda mais importante.
+    Com a IA entrando cada vez mais nas buscas, isso se torna ainda mais importante.
 
 A questão não é apenas estar cadastrado.
 
