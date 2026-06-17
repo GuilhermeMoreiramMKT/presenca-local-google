@@ -425,10 +425,6 @@ function BusinessExamples() {
           <h2 className="mb-6 text-3xl font-black leading-tight text-white md:text-5xl">
             Se o seu cliente pesquisa antes de comprar, sua empresa precisa estar bem apresentada no Google.
           </h2>
-
-          <p className="mx-auto max-w-4xl text-lg leading-relaxed text-[#AAB4D4]">
-            Se alguém pode pesquisar pelo seu produto ou serviço no Google, seu perfil precisa estar pronto para transformar essa pesquisa em visita, ligação ou mensagem.
-          </p>
         </div>
 
         <div className="mx-auto grid max-w-6xl grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-6">
@@ -454,7 +450,7 @@ function FinalCTA() {
           Sua empresa pode estar perdendo clientes que estão a poucos minutos de você.
         </h2>
         <p className="mx-auto mb-8 max-w-3xl text-lg leading-relaxed text-[#AAB4D4]">
-Se você está cansado de perder clientes por não aparecer em pesquisas básicas, me envie uma mensagem e solicite uma análise e orçamento para a otimização do perfil da sua empresa no Google. Vamos conversar sobre como melhorar sua presença local e atrair mais clientes próximos.
+Se você está cansado de perder clientes por não aparecer em pesquisas básicas, me envie uma mensagem e solicite uma análise e orçamento para a otimização do perfil da sua empresa no Google. < br/> Vamos conversar sobre como melhorar sua presença local e atrair mais clientes próximos.
         </p>
 
         <div className="flex flex-col justify-center gap-3 sm:flex-row">
@@ -462,7 +458,7 @@ Se você está cansado de perder clientes por não aparecer em pesquisas básica
             <Button>Quero aparecer melhor no Google</Button>
           </a>
           <a href={WHATSAPP_LINK} target="_blank" rel="noreferrer">
-            <Button variant="secondary">Chamar Guilherme no WhatsApp</Button>
+            <Button variant="secondary">Chamar no WhatsApp</Button>
           </a>
         </div>
 
