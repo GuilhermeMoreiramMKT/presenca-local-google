@@ -287,7 +287,7 @@ function Problems() {
     <section id="problema" className="bg-[#02051A] px-5 py-10">
       <div className="mx-auto max-w-7xl">
         <div className="mx-auto mb-12 max-w-4xl text-center">
-          <SectionTag>O problema</SectionTag>
+          <SectionTag>Como aparecer no Google</SectionTag>
           <h2 className="mb-6 text-3xl font-black text-white md:text-5xl">
             Você sabe como o Google entende a sua empresa hoje?
           </h2>
@@ -482,10 +482,7 @@ function Footer() {
           </p>
         </div>
 
-        <a href={WHATSAPP_LINK} target="_blank" rel="noreferrer">
-          <Button variant="secondary">Falar no WhatsApp</Button>
-        </a>
-      </div>
+            </div>
     </footer>
   );
 }
